@@ -144,6 +144,16 @@
       "receiverName": "Docente María",
       "content": "Hola instructora María! Voy muy bien, ya subí el documento de la guía de React que me recomendó. Estoy terminando el backend.",
       "timestamp": "2026-05-17T18:54:54.478Z"
+    },
+    {
+      "id": "m_rlaz4mkc5",
+      "timestamp": "2026-05-17T20:07:35.292Z",
+      "senderId": "u3",
+      "senderName": "estudiante_carlos",
+      "senderRole": "estudiante",
+      "receiverId": "u2",
+      "receiverName": "Instructora docente_maria",
+      "content": "Hola instructora, acabo de postularme a la vacante de Globant!"
     }
   ],
   "notifications": [
@@ -160,6 +170,13 @@
       "message": "Nueva oferta de empleo publicada: Desarrollador Junior React & Node en Globant.",
       "read": false,
       "timestamp": "2026-05-17T19:54:54.478Z"
+    },
+    {
+      "id": "n_agour8r0e",
+      "userId": "u2",
+      "message": "Tienes un nuevo mensaje de estudiante_carlos: \"Hola instructora, acabo de pos...\"",
+      "read": false,
+      "timestamp": "2026-05-17T20:07:35.333Z"
     }
   ]
 }
