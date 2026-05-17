@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin_sena",
+      "email": "admin@sena.edu.co",
+      "password": "$2b$10$QXfBC6nRTeaNeGNdKVGqQOtSvPd3rczrNQRa3FlD3.0U5y/wXJApe",
+      "role": "administrador",
+      "permissions": [
+        "lectura",
+        "escritura",
+        "eliminacion",
+        "actualizacion",
+        "administracion"
+      ],
+      "program": "Administración de Sistemas",
+      "progress": 100,
+      "verified": true,
+      "bio": "Administrador de la plataforma de recursos académicos del SENA.",
+      "created_at": "2026-05-17T19:54:54.476Z"
+    },
+    {
+      "id": "u2",
+      "username": "docente_maria",
+      "email": "maria.gomez@sena.edu.co",
+      "password": "$2b$10$uyLI2h267Ip6axU/MuFX9OUSr3naWk5rfQ22ycsa51lPiQQ5nCog.",
+      "role": "docente",
+      "permissions": [
+        "lectura",
+        "escritura",
+        "actualizacion"
+      ],
+      "program": "Análisis y Desarrollo de Software (ADSO)",
+      "progress": 85,
+      "verified": true,
+      "bio": "Docente del programa de Tecnología en Análisis y Desarrollo de Software.",
+      "created_at": "2026-05-17T19:54:54.477Z"
+    },
+    {
+      "id": "u3",
+      "username": "estudiante_carlos",
+      "email": "carlos.sanchez@misena.edu.co",
+      "password": "$2b$10$DpO3WnOaYi558pwKahkF8uyx3g898KtzbU3GfNZS8N2pgbIJa0/7G",
+      "role": "estudiante",
+      "permissions": [
+        "lectura"
+      ],
+      "program": "Análisis y Desarrollo de Software (ADSO)",
+      "progress": 45,
+      "verified": true,
+      "bio": "Aprendiz apasionado por el desarrollo web frontend y backend.",
+      "created_at": "2026-05-17T19:54:54.477Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "d1",
+      "title": "Guía de React 19 y Hooks",
+      "program": "Análisis y Desarrollo de Software (ADSO)",
+      "url": "https://react.dev",
+      "description": "Aprende los conceptos fundamentales de React 19, incluyendo useState, useEffect y los nuevos hooks.",
+      "suggestedBy": "docente_maria",
+      "recommended": true,
+      "status": "aprobado",
+      "created_at": "2026-05-17T19:54:54.478Z"
+    },
+    {
+      "id": "d2",
+      "title": "Manual de PostgreSQL Avanzado",
+      "program": "Análisis y Desarrollo de Software (ADSO)",
+      "url": "https://www.postgresql.org/docs/",
+      "description": "Manual detallado para diseño de bases de datos relacionales, optimización de consultas e indexación.",
+      "suggestedBy": "docente_maria",
+      "recommended": true,
+      "status": "aprobado",
+      "created_at": "2026-05-17T19:54:54.478Z"
+    },
+    {
+      "id": "d3",
+      "title": "Guía de Estilos CSS Moderno",
+      "program": "Multimedia y Diseño",
+      "url": "https://developer.mozilla.org/es/docs/Web/CSS",
+      "description": "Técnicas modernas de CSS Grid, Flexbox, y Custom Properties para crear layouts espectaculares.",
+      "suggestedBy": "docente_maria",
+      "recommended": false,
+      "status": "aprobado",
+      "created_at": "2026-05-17T19:54:54.478Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j1",
+      "title": "Desarrollador Junior React & Node",
+      "company": "Globant Colombia",
+      "description": "Buscamos aprendiz egresado del SENA para el rol de Desarrollador Junior Fullstack. Oportunidad de crecimiento y plan de carrera.",
+      "requirements": "Conocimientos básicos de React, Express y bases de datos relacionales. Proactivo y con ganas de aprender.",
+      "salary": "$ 2.200.000 COP",
+      "location": "Bogotá / Remoto",
+      "applicants": [
+        "u3"
+      ],
+      "created_at": "2026-05-17T19:54:54.478Z"
+    },
+    {
+      "id": "j2",
+      "title": "Diseñador Web / Multimedia UI-UX",
+      "company": "MercadoLibre",
+      "description": "Buscamos egresados de programas de multimedia o diseño de software para integrarse a nuestro equipo de diseño de producto.",
+      "requirements": "Figma, CSS3 moderno, bases de accesibilidad web y portafolio de proyectos.",
+      "salary": "$ 2.500.000 COP",
+      "location": "Medellín / Híbrido",
+      "applicants": [],
+      "created_at": "2026-05-17T19:54:54.478Z"
+    },
+    {
+      "id": "j3",
+      "title": "Analista de Base de Datos SQL",
+      "company": "Bancolombia",
+      "description": "Apoyo en la gestión, mantenimiento y migración de bases de datos PostgreSQL y Oracle.",
+      "requirements": "Conocimientos en consultas SQL complejas, optimización y diseño de esquemas relacionales.",
+      "salary": "$ 2.800.000 COP",
+      "location": "Medellín",
+      "applicants": [],
+      "created_at": "2026-05-17T19:54:54.478Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "senderId": "u2",
+      "senderName": "Docente María",
+      "senderRole": "docente",
+      "receiverId": "u3",
+      "receiverName": "Estudiante Carlos",
+      "content": "Hola Carlos, ¿cómo vas con el proyecto de software? Recuerda que debes subir la documentación a la plataforma.",
+      "timestamp": "2026-05-17T17:54:54.478Z"
+    },
+    {
+      "id": "m2",
+      "senderId": "u3",
+      "senderName": "Estudiante Carlos",
+      "senderRole": "estudiante",
+      "receiverId": "u2",
+      "receiverName": "Docente María",
+      "content": "Hola instructora María! Voy muy bien, ya subí el documento de la guía de React que me recomendó. Estoy terminando el backend.",
+      "timestamp": "2026-05-17T18:54:54.478Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u3",
+      "message": "La instructora María Gómez te ha recomendado el documento 'Guía de React 19 y Hooks'.",
+      "read": false,
+      "timestamp": "2026-05-17T16:54:54.478Z"
+    },
+    {
+      "id": "n2",
+      "userId": "u3",
+      "message": "Nueva oferta de empleo publicada: Desarrollador Junior React & Node en Globant.",
+      "read": false,
+      "timestamp": "2026-05-17T19:54:54.478Z"
+    }
+  ]
+}
